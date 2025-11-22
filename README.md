@@ -9,3 +9,4 @@ Requirements:
 
 1. You need to scan documents with atleast 300 DPI hi-res (for good results. In case the resolution can be enhanced using AI.
 2. PostgreSQL Database and data structure needs to be configured. (as per the scanned document structure)
+3. Structure can be tested using the test_structure.py
