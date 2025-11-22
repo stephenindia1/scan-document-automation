@@ -31,9 +31,9 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 # 3. Database Configuration (Optional - set USE_DB = True to enable)
 USE_DB = True
 DB_CONFIG = {
-    "dbname": "receipts_db",
-    "user": "postgres",
-    "password": "Exodus7$",
+    "dbname": "receipts_db", # update your database name
+    "user": "<\your username\>",   # update database your username
+    "password": "<\your password\>",  # update your database password
     "host": "localhost",
     "port": "5432"
 }
@@ -276,5 +276,6 @@ if __name__ == "__main__":
             time.sleep(1)
     except KeyboardInterrupt:
         observer.stop()
+
 
     observer.join()
